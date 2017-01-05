@@ -105,17 +105,7 @@ int main(int argc, char **argv) {
 
 	// Check argument for input file
 	if ((argc - optind) < 1) {
-		printf("Input file must be supplied! \n", argc);
-		return -1;
-	}
-	// Check for --help
-	if ((argc - optind) < 1) {
-		printf("Input file must be supplied! \n", argc);
-		return -1;
-	}
-	// Check for --version
-	if ((argv[0]) == "-help") {
-		printf("argv: %c\n", argv);
+		printf("Input file must be supplied! \n");
 		return -1;
 	}
 	// Check argument for output file
