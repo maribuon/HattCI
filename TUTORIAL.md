@@ -46,7 +46,7 @@ $ hattci.out -t 4  fasta_file  output_file<br><br>
 
 ### Examples
 
-1. Annotating integrons
+#### 1. Annotating integrons
 
 This example is about how to use HattCI to annotate integrons. We will use a small subset of our reference dataset: 3 sequences containg an integron with 3 gene cassettes, and therefore 3 attC sites each. The fasta file can be downloaded here [16 kb].
 
@@ -84,7 +84,7 @@ hit #: 1<br>
 
 For comparison, the coordinates found at GenBank for the sequences in our tutorial.fasta can be found here [4 kb].
 
-2. Quantifying attC sites in metagenomes
+#### 2. Quantifying attC sites in metagenomes
 
 HattCI can be used to analyze large datasets. As an example we can use a metagenome from the Sargasso Sea [265 Mb].<br>
 
