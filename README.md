@@ -1,7 +1,8 @@
-############################## README ##############################
-
 ##### HattCI: #####
-HattCI is a hidden Markov model for attC site identification in DNA sequence described in Pereira et al. 2016 (doi:10.1089/cmb.2016.0024)
+HattCI is a hidden Markov model for attC site identification in DNA sequence described in:
+
+HattCI: Fast and Accurate attC site Identification Using Hidden Markov Models
+Pereira Mariana Buongermino, Wallroth Mikael, Kristiansson Erik, and Axelson-Fisk Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. doi:10.1089/cmb.2016.0024. 
 
 ##### INSTALL: #####
 1. Enter Terminal.
