@@ -48,7 +48,7 @@ $ hattci.out -t 4  fasta_file  output_file<br><br>
 
 #### 1. Annotating integrons
 
-This example is about how to use HattCI to annotate integrons. We will use a small subset of our reference dataset: 3 sequences containg an integron with 3 gene cassettes, and therefore 3 attC sites each. The fasta file can be downloaded here [16 kb].
+This example is about how to use HattCI to annotate integrons. We will use a small subset of our reference dataset: 3 sequences containg an integron with 3 gene cassettes, and therefore 3 attC sites each. The fasta file can be downloaded [here [16 kb]](https://github.com/maribuon/HattCI/blob/master/data/tutorial.fasta "Download data for example 1.").
 
 In this case, it is not necessary to run on both strands, since we will assume the integrons have been correctly assembled so that the search is performed on the top strand by default. The files are also quite small, so we do not need to use more than one thread. We can thus call HattCI as follow:
 
@@ -84,11 +84,11 @@ end position: 2312<br>
 diffV: 21.123385<br>
 hit #: 1<br>
 
-For comparison, the coordinates found at GenBank for the sequences in our tutorial.fasta can be found here [4 kb].
+For comparison, the coordinates found at GenBank for the sequences in our tutorial.fasta can be found [here [4 kb]](https://github.com/maribuon/HattCI/blob/master/data/tutorial.out "Download coordinates for data in example 1.").
 
 #### 2. Quantifying attC sites in metagenomes
 
-HattCI can be used to analyze large datasets. As an example we can use a metagenome from the Sargasso Sea [265 Mb].<br>
+HattCI can be used to analyze large datasets. As an example we can use a [metagenome from the Sargasso Sea [265 Mb]](http://datacommons.cyverse.org/browse/iplant/home/shared/imicrobe/projects/61/CAM_PROJ_SargassoSea.read.fa "Open external link."){:target="_blank"}.<br>
 
 In this case, we want HattCI to analyze both strands, since the fragments have not been assembled. For this we will use the flag -b. In addition, we want to run parallel threads, since the file is considerably large. For this, we will use the flag -t 4. Then HattCI can be called as:
 
