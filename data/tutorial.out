@@ -1,0 +1,83 @@
+  hit	                                 ID	start	  end	    Vscore	  R''	spacer''	  L''	 loop	   L'	spacer'	   R'
+    1	   gi|40645552|dbj|AB113580.1|	 2203	 2312	21.12338482	 2203	    2210	 2215	 2223	 2293	   2300	 2306	0
+    1	   gi|40645552|dbj|AB113580.1|	 3353	 3470	5.72454590	 3353	    3360	 3365	 3373	 3452	   3459	 3464	0
+    1	   gi|40645552|dbj|AB113580.1|	 4047	 4124	4.05240240	 4047	    4054	 4059	 4067	 4105	   4112	 4118	0
+    2	    gi|28394461|gb|AY183453.1|	 2603	 2662	16.67811980	 2603	    2610	 2615	 2623	 2643	   2650	 2656	0
+    2	    gi|28394461|gb|AY183453.1|	 3975	 4031	6.33441034	 3975	    3982	 3987	 3995	 4013	   4020	 4025	0
+    2	    gi|28394461|gb|AY183453.1|	 4825	 4884	20.64473233	 4825	    4832	 4837	 4845	 4865	   4872	 4878	0
+    3	   gi|208436664|gb|EU886977.1|	 1105	 1213	7.80850664	 1105	    1112	 1117	 1125	 1195	   1202	 1207	0
+    3	   gi|208436664|gb|EU886977.1|	 1433	 1492	12.57134264	 1433	    1440	 1445	 1453	 1473	   1480	 1486	0
+    3	   gi|208436664|gb|EU886977.1|	 2289	 2348	22.31947366	 2289	    2296	 2301	 2309	 2329	   2336	 2342	0
+--------------------------------------------
+gtctaacaattcgttcaagccgacgttgcttcgtggcggcgcttgcgtgctacgctaagcttcgcacgccgcttgccactgcgcaccgcggcttaactcaggtgttaggg
+RRRRRRRsssssLLLLLLLL......................................................................LLLLLLLssssssRRRRRRR
+ID: gi|40645552|dbj|AB113580.1|
+start position: 2203
+end position: 2312
+Vscore: 21.123385
+hit #: 1
+
+ccctaacaaatgcttcaacctgacaattcctgttgtcatggtttgtgctgtcgctttgctcagcacaaaccacgccaagcccttcgggccggaattgcaggttaagcaaatgttatgc
+RRRRRRRsssssLLLLLLLL...............................................................................LLLLLLLsssssRRRRRRR
+ID: gi|40645552|dbj|AB113580.1|
+start position: 3353
+end position: 3470
+Vscore: 5.724546
+hit #: 2
+
+gcataaccagtcgctgttgacggacaatttttccaccgctgcgcggttccaaaattgccgcaaagctccacgttagat
+RRRRRRRsssssLLLLLLLL......................................LLLLLLLssssssRRRRRRR
+ID: gi|40645552|dbj|AB113580.1|
+start position: 4047
+end position: 4124
+Vscore: 4.052402
+hit #: 3
+
+gcctaacaattcattcaagccgacaccgcttcgcggcgcggcttaattcaggagttatgc
+RRRRRRRsssssLLLLLLLL....................LLLLLLLssssssRRRRRRR
+ID: gi|28394461|gb|AY183453.1|
+start position: 2603
+end position: 2662
+Vscore: 16.678120
+hit #: 4
+
+gcataacctgcgaatccaccggacggttttcaaccgccggtgatcagcgcgttaaac
+RRRRRRRsssssLLLLLLLL..................LLLLLLLsssssRRRRRRR
+ID: gi|28394461|gb|AY183453.1|
+start position: 3975
+end position: 4031
+Vscore: 6.334410
+hit #: 5
+
+gtctaacaattcgttcaagccgacgccgcttcgcggcgcggcttaactcaagcgttagag
+RRRRRRRsssssLLLLLLLL....................LLLLLLLssssssRRRRRRR
+ID: gi|28394461|gb|AY183453.1|
+start position: 4825
+end position: 4884
+Vscore: 20.644732
+hit #: 6
+
+ggctaacaactgcttcaacctgactcacctattggcatggtttatgctttcgcttcgcttggcataaaccatgccaatgtacggttcgcaggttaagcaaatgttagcc
+RRRRRRRsssssLLLLLLLL......................................................................LLLLLLLsssssRRRRRRR
+ID: gi|208436664|gb|EU886977.1|
+start position: 1105
+end position: 1213
+Vscore: 7.808507
+hit #: 7
+
+gtctaacccggcgctcaagccgacccgcatgctgcgggcggcttacctagtccgttaaac
+RRRRRRRsssssLLLLLLLL....................LLLLLLLssssssRRRRRRR
+ID: gi|208436664|gb|EU886977.1|
+start position: 1433
+end position: 1492
+Vscore: 12.571343
+hit #: 8
+
+gtctaacaattcgttcaagccgacgccgcttcgcgcggcggcttaactccggcgttagat
+RRRRRRRsssssLLLLLLLL....................LLLLLLLssssssRRRRRRR
+ID: gi|208436664|gb|EU886977.1|
+start position: 2289
+end position: 2348
+Vscore: 22.319474
+hit #: 9
+
