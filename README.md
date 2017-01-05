@@ -3,10 +3,10 @@ HattCI is C-implementation for identification of *attC* sites in DNA sequences.
 
 ##### CITATION: #####
 HattCI: Fast and Accurate attC site Identification Using Hidden Markov Models <br>
-Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-Fisk; Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. doi:10.1089/cmb.2016.0024. 
+Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-Fisk; Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. [doi:10.1089/cmb.2016.0024](http://online.liebertpub.com/doi/abs/10.1089/cmb.2016.0024).
 
 ##### LICENCE: #####
-HattCI is freely distributed under the GNU General Public License [(GPLv3)](https://opensource.org/licenses/GPL-3.0 "GNU General Public License version 3") .
+HattCI is freely distributed under the GNU General Public License [(GPLv3)](https://opensource.org/licenses/GPL-3.0 "GNU General Public License version 3").
 
 ##### INSTALL: #####
 1. Download HattCI, move it to a directory where you want it installed. Uncompress it.
