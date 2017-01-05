@@ -88,7 +88,7 @@ For comparison, the coordinates found at GenBank for the sequences in our tutori
 
 #### 2. Quantifying attC sites in metagenomes
 
-HattCI can be used to analyze large datasets. As an example we can use a <a href="http://example.com/" target="_blank">Hello, world!</a> [metagenome from the Sargasso Sea [265 Mb]](http://datacommons.cyverse.org/browse/iplant/home/shared/imicrobe/projects/61/CAM_PROJ_SargassoSea.read.fa "Open external link."){:target="_blank"}.<br>
+HattCI can be used to analyze large datasets. As an example we can use a <a href="http://datacommons.cyverse.org/browse/iplant/home/shared/imicrobe/projects/61/CAM_PROJ_SargassoSea.read.fa" target="_blank">metagenome from the Sargasso Sea [265 Mb]</a>.<br>
 
 In this case, we want HattCI to analyze both strands, since the fragments have not been assembled. For this we will use the flag -b. In addition, we want to run parallel threads, since the file is considerably large. For this, we will use the flag -t 4. Then HattCI can be called as:
 
