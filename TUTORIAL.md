@@ -61,6 +61,19 @@ Hits: 9 <br>
 
 The results are saved to tutorial.out. The results are divided in two parts. The first part is a table as below, where the first column is just a hit number, the second column is the accession number, start and end are the coordinates for the putative attC site, Vscore is the Viterbi score for the corresponding hit, and the following columns are the start positions of each attC site part. <br>
 
+hit&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp;start&nbsp;&nbsp;&nbsp;end&nbsp;&nbsp;&nbsp;Vscore	R''	spacer''&nbsp;&nbsp;&nbsp;L''	loop&nbsp;&nbsp;&nbsp;L'&nbsp;&nbsp;&nbsp;spacer'&nbsp;&nbsp;&nbsp;R' <br>	
+1&nbsp;&nbsp;&nbsp;AB113580.1&nbsp;&nbsp;&nbsp;2203&nbsp;&nbsp;&nbsp;2312&nbsp;&nbsp;&nbsp;21.1&nbsp;&nbsp;&nbsp;2203&nbsp;&nbsp;&nbsp;2210&nbsp;&nbsp;&nbsp;2215&nbsp;&nbsp;&nbsp;2223&nbsp;&nbsp;&nbsp;2293&nbsp;&nbsp;&nbsp;2300&nbsp;&nbsp;&nbsp;2306&nbsp;&nbsp;&nbsp;0<br>
+2&nbsp;&nbsp;&nbsp;AB113580.1&nbsp;&nbsp;&nbsp;3353&nbsp;&nbsp;&nbsp;3470&nbsp;&nbsp;&nbsp;5.7&nbsp;&nbsp;&nbsp;3353&nbsp;&nbsp;&nbsp;3360&nbsp;&nbsp;&nbsp;3365&nbsp;&nbsp;&nbsp;3373&nbsp;&nbsp;&nbsp;3452&nbsp;&nbsp;&nbsp;3459&nbsp;&nbsp;&nbsp;3464&nbsp;&nbsp;&nbsp;0<br>
+3&nbsp;&nbsp;&nbsp;AB113580.1&nbsp;&nbsp;&nbsp;4047&nbsp;&nbsp;&nbsp;4124&nbsp;&nbsp;&nbsp;4.1&nbsp;&nbsp;&nbsp;4047&nbsp;&nbsp;&nbsp;4054&nbsp;&nbsp;&nbsp;4059&nbsp;&nbsp;&nbsp;4067&nbsp;&nbsp;&nbsp;4105&nbsp;&nbsp;&nbsp;4112&nbsp;&nbsp;&nbsp;4118&nbsp;&nbsp;&nbsp;0<br>
+4&nbsp;&nbsp;&nbsp;AY183453.1&nbsp;&nbsp;&nbsp;2603&nbsp;&nbsp;&nbsp;2662&nbsp;&nbsp;&nbsp;16.7&nbsp;&nbsp;&nbsp;2603&nbsp;&nbsp;&nbsp;2610&nbsp;&nbsp;&nbsp;2615&nbsp;&nbsp;&nbsp;2623&nbsp;&nbsp;&nbsp;2643&nbsp;&nbsp;&nbsp;2650&nbsp;&nbsp;&nbsp;2656&nbsp;&nbsp;&nbsp;0<br>
+5&nbsp;&nbsp;&nbsp;AY183453.1&nbsp;&nbsp;&nbsp;3975&nbsp;&nbsp;&nbsp;4031&nbsp;&nbsp;&nbsp;6.3&nbsp;&nbsp;&nbsp;3975&nbsp;&nbsp;&nbsp;3982&nbsp;&nbsp;&nbsp;3987&nbsp;&nbsp;&nbsp;3995&nbsp;&nbsp;&nbsp;4013&nbsp;&nbsp;&nbsp;4020&nbsp;&nbsp;&nbsp;4025&nbsp;&nbsp;&nbsp;0<br>
+6&nbsp;&nbsp;&nbsp;AY183453.1&nbsp;&nbsp;&nbsp;4825&nbsp;&nbsp;&nbsp;4884&nbsp;&nbsp;&nbsp;20.6&nbsp;&nbsp;&nbsp;4825&nbsp;&nbsp;&nbsp;4832&nbsp;&nbsp;&nbsp;4837&nbsp;&nbsp;&nbsp;4845&nbsp;&nbsp;&nbsp;4865&nbsp;&nbsp;&nbsp;4872&nbsp;&nbsp;&nbsp;4878&nbsp;&nbsp;&nbsp;0<br>
+7&nbsp;&nbsp;&nbsp;EU886977.1&nbsp;&nbsp;&nbsp;1105&nbsp;&nbsp;&nbsp;1213&nbsp;&nbsp;&nbsp;7.8&nbsp;&nbsp;&nbsp;1105&nbsp;&nbsp;&nbsp;1112&nbsp;&nbsp;&nbsp;1117&nbsp;&nbsp;&nbsp;1125&nbsp;&nbsp;&nbsp;1195&nbsp;&nbsp;&nbsp;1202&nbsp;&nbsp;&nbsp;1207&nbsp;&nbsp;&nbsp;0<br>
+8&nbsp;&nbsp;&nbsp;EU886977.1&nbsp;&nbsp;&nbsp;1433&nbsp;&nbsp;&nbsp;1492&nbsp;&nbsp;&nbsp;12.6&nbsp;&nbsp;&nbsp;1433&nbsp;&nbsp;&nbsp;1440&nbsp;&nbsp;&nbsp;1445&nbsp;&nbsp;&nbsp;1453&nbsp;&nbsp;&nbsp;1473&nbsp;&nbsp;&nbsp;1480&nbsp;&nbsp;&nbsp;1486&nbsp;&nbsp;&nbsp;0<br>
+9&nbsp;&nbsp;&nbsp;EU886977.1&nbsp;&nbsp;&nbsp;2289&nbsp;&nbsp;&nbsp;2348&nbsp;&nbsp;&nbsp;22.3&nbsp;&nbsp;&nbsp;2289&nbsp;&nbsp;&nbsp;2296&nbsp;&nbsp;&nbsp;2301&nbsp;&nbsp;&nbsp;2309&nbsp;&nbsp;&nbsp;2329&nbsp;&nbsp;&nbsp;2336&nbsp;&nbsp;&nbsp;2342&nbsp;&nbsp;&nbsp;0<br>
+
+
+
 hit&nbsp;ID&nbsp;start&nbsp;end&nbsp;Vscore	R''	spacer''&nbsp;L''	loop&nbsp;L'&nbsp;spacer'&nbsp;R' <br>	
 1&nbsp;AB113580.1&nbsp;2203&nbsp;2312&nbsp;21.1&nbsp;2203&nbsp;2210&nbsp;2215&nbsp;2223&nbsp;2293&nbsp;2300&nbsp;2306&nbsp;0<br>
 2&nbsp;AB113580.1&nbsp;3353&nbsp;3470&nbsp;5.7&nbsp;3353&nbsp;3360&nbsp;3365&nbsp;3373&nbsp;3452&nbsp;3459&nbsp;3464&nbsp;0<br>
