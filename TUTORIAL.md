@@ -9,12 +9,12 @@ HattCI 1.0b [4.6 Mb] can be downloaded [here](https://github.com/maribuon/HattCI
 
 ### Installation
 
-To install HattCI, save hattci.zip to *yourdir*, enter a terminal, and type:
+To install HattCI, save HattCI-master.zip to *yourdir*, enter a terminal, and type:
 
- $ cd *yourdir*
- $ unzip hattci.tar.gz
- $ cd HattCI-master
- $ make
+ $ cd *yourdir* <br>
+ $ unzip HattCI-master.zip <br>
+ $ cd HattCI-master<br>
+ $ make<br>
 
 Make sure *yourdir* is on your path, so that hattci.out is available.
 
@@ -26,11 +26,11 @@ $ hattci.out fasta_file output_file
 
 ### Arguments
 
--b:
+-b: <br>
 Processes both the ordinary sequences and the complementary sequence. <br>
 To run for both directions, type:
 
-$ hattci.out -b fasta_file  output_file
+$ hattci.out -b fasta_file  output_file<br><br>
 
 -s x:
 HattCI reads x sequences at a time and processes them before reading the next x sequences, in order to avoid overextending RAM. Default is 1000 sequences. This flag gives the option to manually choose number of sequences to read, in the case of large sequences.
