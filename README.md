@@ -5,9 +5,10 @@ HattCI: Fast and Accurate attC site Identification Using Hidden Markov Models <b
 Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-Fisk; Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. doi:10.1089/cmb.2016.0024. 
 
 ##### INSTALL: #####
-1. Enter Terminal.
-2. cd to the directory.
-3. Type 'make' in terminal.
+1. Download HattCI, move it to a directory where you want it installed. Uncompress it.
+2. Enter Terminal.
+3. cd to the directory where HattCI is.
+4. Type 'make' in terminal.
 
 ##### RUN: #####
 To run HattCI, type<br>
@@ -49,3 +50,10 @@ A summary (i.e. output to terminal) of the processed data is printed to summary.
 
 To run script, type:<br>
 $ ./runScript.sh
+
+##### UNINSTALL: #####
+1. Open a Terminal
+2. cd the directory where it is installed
+3. make clean
+4. delete the directory
+
