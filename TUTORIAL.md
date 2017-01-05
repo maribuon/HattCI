@@ -60,7 +60,19 @@ Sequences processed: 3 <br>
 Hits: 9 <br>
 
 The results are saved to tutorial.out. The results are divided in two parts. The first part is a table as below, where the first column is just a hit number, the second column is the accession number, start and end are the coordinates for the putative attC site, Vscore is the Viterbi score for the corresponding hit, and the following columns are the start positions of each attC site part. <br>
-hit 			ID 	start 	end 	Vscore	R''	spacer'' 	L''	loop 	L' 	spacer' 	R' <br>	
+
+hit&nbsp;ID&nbsp;start&nbsp;end&nbsp;Vscore	R''	spacer''&nbsp;L''	loop&nbsp;L'&nbsp;spacer'&nbsp;R' <br>	
+1&nbsp;AB113580.1&nbsp;2203&nbsp;2312&nbsp;21.1&nbsp;2203&nbsp;2210&nbsp;2215&nbsp;2223&nbsp;2293&nbsp;2300&nbsp;2306&nbsp;0<br>
+2&nbsp;AB113580.1&nbsp;3353&nbsp;3470&nbsp;5.7&nbsp;3353&nbsp;3360&nbsp;3365&nbsp;3373&nbsp;3452&nbsp;3459&nbsp;3464&nbsp;0<br>
+3&nbsp;AB113580.1&nbsp;4047&nbsp;4124&nbsp;4.1&nbsp;4047&nbsp;4054&nbsp;4059&nbsp;4067&nbsp;4105&nbsp;4112&nbsp;4118&nbsp;0<br>
+4&nbsp;AY183453.1&nbsp;2603&nbsp;2662&nbsp;16.7&nbsp;2603&nbsp;2610&nbsp;2615&nbsp;2623&nbsp;2643&nbsp;2650&nbsp;2656&nbsp;0<br>
+5&nbsp;AY183453.1&nbsp;3975&nbsp;4031&nbsp;6.3&nbsp;3975&nbsp;3982&nbsp;3987&nbsp;3995&nbsp;4013&nbsp;4020&nbsp;4025&nbsp;0<br>
+6&nbsp;AY183453.1&nbsp;4825&nbsp;4884&nbsp;20.6&nbsp;4825&nbsp;4832&nbsp;4837&nbsp;4845&nbsp;4865&nbsp;4872&nbsp;4878&nbsp;0<br>
+7&nbsp;EU886977.1&nbsp;1105&nbsp;1213&nbsp;7.8&nbsp;1105&nbsp;1112&nbsp;1117&nbsp;1125&nbsp;1195&nbsp;1202&nbsp;1207&nbsp;0<br>
+8&nbsp;EU886977.1&nbsp;1433&nbsp;1492&nbsp;12.6&nbsp;1433&nbsp;1440&nbsp;1445&nbsp;1453&nbsp;1473&nbsp;1480&nbsp;1486&nbsp;0<br>
+9&nbsp;EU886977.1&nbsp;2289&nbsp;2348&nbsp;22.3&nbsp;2289&nbsp;2296&nbsp;2301&nbsp;2309&nbsp;2329&nbsp;2336&nbsp;2342&nbsp;0<br>
+
+hit&nbsp;ID 	start 	end 	Vscore	R''	spacer'' 	L''	loop 	L' 	spacer' 	R' <br>	
 1 	AB113580.1 	2203 	2312 	21.1 	2203 	2210 	2215 	2223 	2293 	2300 	2306 	0<br>
 2 	AB113580.1 	3353 	3470 	5.7 	3353 	3360 	3365 	3373 	3452 	3459 	3464 	0<br>
 3 	AB113580.1 	4047 	4124 	4.1 	4047 	4054 	4059 	4067 	4105 	4112 	4118 	0<br>
