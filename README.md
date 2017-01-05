@@ -2,22 +2,22 @@ HattCI
 ====
 HattCI is C-implementation for identification of *attC* sites in DNA sequences.
 
-## Citation #####
+### Citation #####
 HattCI: Fast and Accurate attC site Identification Using Hidden Markov Models <br>
 Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-Fisk; Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. [doi:10.1089/cmb.2016.0024](http://online.liebertpub.com/doi/abs/10.1089/cmb.2016.0024).
 
-## License #####
+### License #####
 HattCI is freely distributed under the GNU General Public License [(GPLv3)](https://opensource.org/licenses/GPL-3.0 "GNU General Public License version 3").
 
-## Installation #####
+### Installation #####
 1. Download HattCI, move it to a *yourDirectory* where you want it installed. Uncompress it.
 2. Enter Terminal.
-3. cd to the directory where HattCI is.
+3. cd *yourDirectory*
 4. Type 'make' in terminal.
 
 Make sure *yourDirectory* is in your $PATH. 
 
-## Usage #####
+### Usage #####
 To run HattCI, type<br>
 $ hattci.out \<fasta file> \<location to put the output file>
 
@@ -28,8 +28,7 @@ Note that if output.txt already exists, it is overwritten.<br>
 Otherwise, it is created. If no output file is given, the output is written to
 a standard file.
 
-### Options #####
-HattCI handles options.<br>
+#### Options #####
 -b:<br>
 Processes both the ordinary sequences and the complementary
 sequence.<br>
