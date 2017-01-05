@@ -32,19 +32,20 @@ To run for both directions, type:
 
 $ hattci.out -b fasta_file  output_file<br><br>
 
--s x:
-HattCI reads x sequences at a time and processes them before reading the next x sequences, in order to avoid overextending RAM. Default is 1000 sequences. This flag gives the option to manually choose number of sequences to read, in the case of large sequences.
-To specify the chunk size when reading sequences, type for instance:
+-s x: <br>
+HattCI reads x sequences at a time and processes them before reading the next x sequences, in order to avoid overextending RAM. Default is 1000 sequences. This flag gives the option to manually choose number of sequences to read, in the case of large sequences. <br>
+To specify the chunk size when reading sequences, type for instance: 
 
- $ hattci.out -s 100000  fasta_file  output_file
+ $ hattci.out -s 100000  fasta_file  output_file <br><br>
 
--t x:
-HattCI may run a large part of the computations in parallel, i.e. let different threads process a set of sequences, which in turn gives a reduced computation time. The parallelization works best when processing larger chunks of sequences at a time. Default number of threads are 1.
+-t x:<br>
+HattCI may run a large part of the computations in parallel, i.e. let different threads process a set of sequences, which in turn gives a reduced computation time. The parallelization works best when processing larger chunks of sequences at a time. Default number of threads are 1.<br>
 To specify the number of threads, type for instance
 
-$ hattci.out -t 4  fasta_file  output_file
+$ hattci.out -t 4  fasta_file  output_file<br><br>
 
-Examples
+### Examples
+
 1. Annotating integrons
 
 This example is about how to use HattCI to annotate integrons. We will use a small subset of our reference dataset: 3 sequences containg an integron with 3 gene cassettes, and therefore 3 attC sites each. The fasta file can be downloaded here [16 kb].
