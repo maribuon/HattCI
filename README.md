@@ -1,4 +1,5 @@
 HattCI
+![alt text](https://github.com/maribuon/HattCI/blob/master/hattci-logo.png "Logo")
 ====
 HattCI is C-implementation for identification of *attC* sites in DNA sequences.
 
