@@ -11,7 +11,7 @@ Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-
 
 ##### RUN: #####
 To run HattCI, type
-$ ./hattci.out <fasta file> <location to put the output file>
+$ ./hattci.out \<fasta file> \<location to put the output file>
 or
 $ ./hattci.out the.fasta ./output/output.txt
 Note that if output.txt already exists, it is overwritten.
