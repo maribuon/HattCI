@@ -5,7 +5,7 @@ HattCI is a C-program for the identification of attC sites in any type of DNA da
 
 ### Download
 
-HattCI 1.0b [4.6 Mb] can be downloaded [here](https://github.com/maribuon/HattCI/archive/master.zip "Download HattCI 1.0b") .
+HattCI 1.0b [537 kb] can be downloaded [here](https://github.com/maribuon/HattCI/archive/master.zip "Download HattCI 1.0b") .
 
 ### Installation
 
