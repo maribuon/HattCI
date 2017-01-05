@@ -61,17 +61,17 @@ Hits: 9 <br>
 
 The results are saved to tutorial.out. The results are divided in two parts. The first part is a table as below, where the first column is just a hit number, the second column is the accession number, start and end are the coordinates for the putative attC site, Vscore is the Viterbi score for the corresponding hit, and the following columns are the start positions of each attC site part. <br>
 
-| hit|ID        |start|end |Vscore|	R'' |	spacer''|L''	 |loop | L' |spacer'|R'  |   |
-| ---|---       |---  |--- |---:  | --- | ---     | --- |---  | ---| ---   |--- |---|
-| 1  |AB113580.1|2203 |2312|21.1  |2203 |2210     |2215 |2223 |2293|2300   |2306| 0 |
-| 2  |AB113580.1|3353 |3470|5.7   |3353 |3360     |3365 |3373 |3452|3459   |3464| 0 |
-| 3  |AB113580.1|4047 |4124|4.1   |4047 |4054     |4059 |4067 |4105|4112   |4118| 0 |
-| 4  |AY183453.1|2603 |2662|16.7  |2603 |2610     |2615 |2623 |2643|2650   |2656| 0 |
-| 5  |AY183453.1|3975 |4031|6.3   |3975 |3982     |3987 |3995 |4013|4020   |4025| 0 |
-| 6  |AY183453.1|4825 |4884|20.6  |4825 |4832     |4837 |4845 |4865|4872   |4878| 0 |
-| 7  |EU886977.1|1105 |1213|7.8   |1105 |1112     |1117 |1125 |1195|1202   |1207| 0 |
-| 8  |EU886977.1|1433 |1492|12.6  |1433 |1440     |1445 |1453 |1473|1480   |1486| 0 |
-| 9  |EU886977.1|2289 |2348|22.3  |2289 |2296     |2301 |2309 |2329|2336   |2342| 0 |
+| hit | ID       |start|end |Vscore|	R'' |	spacer''|L''	 |loop | L' |spacer'|R'  |   |
+| --- | ---      |---  |--- |---:  | --- | ---     | --- |---  | ---| ---   |--- |---|
+| 1   |AB113580.1|2203 |2312|21.1  |2203 |2210     |2215 |2223 |2293|2300   |2306| 0 |
+| 2   |AB113580.1|3353 |3470|5.7   |3353 |3360     |3365 |3373 |3452|3459   |3464| 0 |
+| 3   |AB113580.1|4047 |4124|4.1   |4047 |4054     |4059 |4067 |4105|4112   |4118| 0 |
+| 4   |AY183453.1|2603 |2662|16.7  |2603 |2610     |2615 |2623 |2643|2650   |2656| 0 |
+| 5   |AY183453.1|3975 |4031|6.3   |3975 |3982     |3987 |3995 |4013|4020   |4025| 0 |
+| 6   |AY183453.1|4825 |4884|20.6  |4825 |4832     |4837 |4845 |4865|4872   |4878| 0 |
+| 7   |EU886977.1|1105 |1213|7.8   |1105 |1112     |1117 |1125 |1195|1202   |1207| 0 |
+| 8   |EU886977.1|1433 |1492|12.6  |1433 |1440     |1445 |1453 |1473|1480   |1486| 0 |
+| 9   |EU886977.1|2289 |2348|22.3  |2289 |2296     |2301 |2309 |2329|2336   |2342| 0 |
 
 The second part of the results file, contain, for each hit, the DNA sequence, the annotation, where R corresponds to R'' and R', s corresponds to nucleotides found in the spacers, L is for L'' and L' and the dots (..) correspond to the loop. Below, we have as example the output for the first hit:
 
