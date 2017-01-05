@@ -1,4 +1,5 @@
-##### HattCI: #####
+HattCI:
+====
 HattCI is C-implementation for identification of *attC* sites in DNA sequences.
 
 ##### CITATION: #####
