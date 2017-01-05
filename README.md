@@ -1,5 +1,5 @@
 ##### HattCI: #####
-HattCI is C-implementation for identification of <i attC/i> sites in DNA sequences described in:
+HattCI is C-implementation for identification of <i attC /i> sites in DNA sequences described in:
 
 HattCI: Fast and Accurate attC site Identification Using Hidden Markov Models.
 Pereira, Mariana Buongermino; Wallroth, Mikael; Kristiansson, Erik; and Axelson-Fisk; Marina. Journal of Computational Biology. November 2016, 23(11): 891-902. doi:10.1089/cmb.2016.0024. 
