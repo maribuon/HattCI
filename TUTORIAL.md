@@ -61,9 +61,9 @@ Hits: 9 <br>
 
 The results are saved to tutorial.out. The results are divided in two parts. The first part is a table as below, where the first column is just a hit number, the second column is the accession number, start and end are the coordinates for the putative attC site, Vscore is the Viterbi score for the corresponding hit, and the following columns are the start positions of each attC site part. <br>
 
-| hit|ID|start|end|Vscore|	R'' |	spacer''|L''	|loop|L'|spacer'|R' |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1|AB113580.1|2203|2312|21.1|2203|2210|2215|2223|2293|2300|2306|0|
+| hit|ID|start|end|Vscore|	R'' |	spacer''|L''	 |loop | L'  |spacer'| R'  |     |
+| ---|---       |--- |--- |---:| ---| ---| ---|--- | ---| ---| ---| --- |
+| 1  |AB113580.1|2203|2312|21.1|2203|2210|2215|2223|2293|2300|2306|0|
 | 2|AB113580.1|3353|3470|5.7|3353|3360|3365|3373|3452|3459|3464|0|
 | 3|AB113580.1|4047|4124|4.1|4047|4054|4059|4067|4105|4112|4118|0|
 | 4|AY183453.1|2603|2662|16.7|2603|2610|2615|2623|2643|2650|2656|0|
