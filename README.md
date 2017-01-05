@@ -51,6 +51,10 @@ $ hattci.out -t 4 \<fasta file> \<location to put the output file>
 The flags works together, type for instance: <br>
 $ hattci.out -b -s 100 <fasta file> <location to put the output file>
 
+### Tutorial
+
+A tutorial with two usage examples can be find [here](https://github.com/maribuon/HattCI/blob/master/TUTORIAL.md). 
+
 ### Uninstall #####
 1. Open a Terminal
 2. cd the directory where it is installed
