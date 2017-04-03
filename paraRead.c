@@ -1,6 +1,6 @@
 /*
 HattCI is a statistical program used to identify attC sites of DNA sequences.
-Copyright 2015 Mikael Wallroth
+Copyright 2015 Mikael Wallroth, Mariana Buongermino Pereira
 
 This file is part of HattCI.
 
