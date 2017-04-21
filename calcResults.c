@@ -48,6 +48,31 @@ est_trans	(input)         double array, transition log probabilities
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
+#include <ctype.h>
+
+// function to strip/trim whitespaces of begin/end a string
+char *strstrip(char *s)
+{
+    size_t size;
+    char *end;
+
+    size = strlen(s);
+
+    if (!size)
+        return s;
+
+    end = s + size - 1;
+    while (end >= s && isspace(*end))
+        end--;
+    *(end + 1) = '\0';
+
+    while (*s && isspace(*s))
+        s++;
+
+    return s;
+}
+
 
 
 int calcResults(int **resPaths, double **resLogV, char **seqs, char **revSeqs,
@@ -71,6 +96,12 @@ int calcResults(int **resPaths, double **resLogV, char **seqs, char **revSeqs,
 
     int size = nseq;
     int k = 0, t, i;
+
+		// trimming whitespaces
+		for (i = 0; i < nseq; i++) {
+			headers[i] = strstrip(headers[i]);
+		}
+
 
     // check for attC sites found in each sequence
     if (reverse == 0) { // no reversed
